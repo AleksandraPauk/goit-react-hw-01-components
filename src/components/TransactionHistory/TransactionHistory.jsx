@@ -1,4 +1,3 @@
-import { type } from '@testing-library/user-event/dist/type';
 import PropTypes from 'prop-types';
 import styles from "../TransactionHistory/TransactionHistory.module.css";
 
