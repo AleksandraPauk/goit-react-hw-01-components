@@ -1,0 +1,26 @@
+.transaction__history {
+  margin: 0 auto;
+}
+
+thead {
+  border: 1px solid #2a2a2a;
+  background-color: #97e9f0;
+}
+
+tbody {
+  background-color: white;
+}
+
+td,
+th {
+  padding: 10px;
+  border: 1px solid #2a2a2a;
+}
+
+td {
+  font-size: 14px;
+  color: #4a4a4a;
+  text-align: center;
+}
+
+
