@@ -16,6 +16,14 @@
   margin-right: 8px;
 }
 
+.true{
+ background-color: #29c54a;
+}
+
+.false{
+ background-color: #ff0000;
+}
+
 .avatar {
   margin-right: 4px;
   border: solid 1px #80808045;

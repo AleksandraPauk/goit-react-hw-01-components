@@ -4,17 +4,8 @@ import PropTypes from 'prop-types';
 export const FriendListItem = ({ avatar, name, isOnline }) => {
   return (
     <li className={styles.item}>
-      {isOnline ? (
-        <span
-          className={styles.status}
-          style={{ backgroundColor: '#29c54a' }}
-        />
-      ) : (
-        <span
-          className={styles.status}
-          style={{ backgroundColor: '#ff0000' }}
-        />
-      )}
+      <span className={isOnline ? `${styles.status} ${styles.true}`  : `${styles.status} ${styles.false}`}/>
+      {/* <span className={`${styles.status} ${styles[isOnline]}` } /> */}
       <img
         className={styles.avatar}
         src={avatar}
